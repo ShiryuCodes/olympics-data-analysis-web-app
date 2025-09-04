@@ -1,3 +1,5 @@
+[Live Demo](https://huggingface.co/spaces/Shiryuxu/olympic-data-analysis)
+
 # 🏅 Olympics Data Analysis Web App
 
 A comprehensive data analysis web application built with Streamlit that provides interactive insights into Olympic Games data from 1896 to 2016. This project transforms raw Olympic data into meaningful visualizations and statistics through an intuitive web interface.
@@ -130,9 +132,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## More Info
 
-**Shiryu** - [GitHub Profile](https://github.com/ShiryuCodes)
+**Live Demo** - [Demo](https://huggingface.co/spaces/Shiryuxu/olympic-data-analysis)
 
-Project Link: [https://github.com/ShiryuCodes/olympics-data-analysis-web-app](https://github.com/ShiryuCodes/olympics-data-analysis-web-app)
+**Notebook Link** - [Notebook](https://github.com/ShiryuCodes/olympics-data-analysis-web-app/blob/main/Notebook/Olympics-analysis.ipynb)
 
 ---
 
