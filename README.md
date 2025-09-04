@@ -2,21 +2,25 @@
 
 A comprehensive data analysis web application built with Streamlit that provides interactive insights into Olympic Games data from 1896 to 2016. This project transforms raw Olympic data into meaningful visualizations and statistics through an intuitive web interface.
 
+# Dataset Used
+
+Dataset used was [120 years of Olympic history: athletes and results](https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results)
+
 ## 🌟 Features
 
-### 📊 Medal Tally Analysis
+### Medal Tally Analysis
 - View overall medal tallies or filter by specific years and countries
 - Interactive country and year selection
 - Comprehensive medal statistics (Gold, Silver, Bronze, Total)
 
-### 📈 Overall Analysis
+### Overall Analysis
 - Key Olympic statistics dashboard (Editions, Host Cities, Sports, Events, Athletes, Nations)
 - Trend analysis of participating nations over time
 - Evolution of Olympic events and athlete participation
 - Sport-wise event heatmap visualization
 - Most successful athletes analysis with sport filtering
 
-### 🌍 Country-wise Analysis
+### Country-wise Analysis
 - Individual country performance over time
 - Country-specific sport excellence heatmaps
 - Top 10 athletes by country
@@ -43,11 +47,10 @@ A comprehensive data analysis web application built with Streamlit that provides
 
 ```
 olympics-data-analysis-web-app/
-├── app.py                 # Main Streamlit application
+├── app.py                # Main Streamlit application
 ├── helper.py             # Data processing and analysis functions
 ├── preprocessor.py       # Data preprocessing utilities
-├── athlete_events.csv    # Main Olympic dataset
-├── noc_regions.csv      # Country/Region mapping data
+├── requrements.txt       # libraries required
 ├── Notebook/
 │   └── Olympics-analysis.ipynb  # Jupyter notebook with complete analysis
 └── README.md
@@ -111,23 +114,6 @@ The notebook contains:
 - Visualization development process
 - Key insights and findings
 
-## 📱 Usage Examples
-
-### Medal Tally Analysis
-- Select "Overall" for both year and country to see all-time medal rankings
-- Choose a specific year (e.g., 2016) to see that Olympics' medal table
-- Select a country to see their historical performance
-
-### Country Analysis
-- Pick any country from the dropdown to see their Olympic journey
-- Analyze which sports they excel in through heatmap visualizations
-- Discover their top-performing athletes
-
-### Athlete Demographics
-- Explore age distributions across different medal categories
-- Compare physical attributes (height/weight) across sports
-- Track gender participation trends over Olympic history
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here are some ways you can contribute:
@@ -138,35 +124,11 @@ Contributions are welcome! Here are some ways you can contribute:
 4. **Push to the branch** (`git push origin feature/AmazingFeature`)
 5. **Open a Pull Request**
 
-### Ideas for Contributions
-- Add more visualization types
-- Implement additional statistical analyses
-- Create export functionality for charts and data
-- Add data for more recent Olympics
-- Improve UI/UX design
-- Add caching for better performance
-
-## 📈 Future Enhancements
-
-- [ ] Integration with real-time Olympic data APIs
-- [ ] Additional sports-specific analysis modules
-- [ ] Predictive modeling for future Olympic performance
-- [ ] Enhanced mobile responsiveness
-- [ ] Data export functionality (CSV, PDF reports)
-- [ ] Integration with more recent Olympic data (2020, 2024)
-
 ## 📜 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🙏 Acknowledgments
-
-- Olympic data sourced from publicly available datasets
-- Built with the amazing Streamlit framework
-- Visualization libraries: Plotly, Matplotlib, Seaborn
-- Special thanks to the open-source community
-
-## 📧 Contact
+## More Info
 
 **Shiryu** - [GitHub Profile](https://github.com/ShiryuCodes)
 
